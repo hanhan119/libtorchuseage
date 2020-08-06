@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/ros/kinetic/**",
+                "/home/nov/catkin_ws/src/a-coeus/vins_estimator/lib/libtorch/include/*",
+                "/home/nov/catkin_ws/src/a-coeus/vins_estimator/lib/libtorch/include/torch/csrc/api/include/*"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}

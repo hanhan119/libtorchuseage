@@ -1,0 +1,18 @@
+<launch>
+
+	<node 
+	name="rviz" pkg="rviz" type="rviz" output="log" 
+	/>
+
+	<node pkg="qqq_test" name="qqq" type="qqq" output="screen"
+	args="/home/nov/catkin_ws/src/seq01"
+	/>
+
+	<!--
+	<node pkg="vins" 	name="coeus_visual" type="coeus_test" output="screen">
+	<launch-prefix="xterm -e gdb -ex run --><!--args">
+	<args="/home/nov/catkin_ws/src/seq01">
+	</node>
+	-->
+
+</launch>
